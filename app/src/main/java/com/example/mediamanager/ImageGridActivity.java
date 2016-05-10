@@ -39,10 +39,6 @@ public class ImageGridActivity extends AppCompatActivity implements AdapterView.
             case MainActivity.TYPE_VIDEO:
                 GetMediaData.getVideoArrayData(this, mMediaList);
                 break;
-            case MainActivity.TYPE_ALL:
-                GetMediaData.getImageArrayData(this, mMediaList);
-                GetMediaData.getVideoArrayData(this, mMediaList);
-                break;
             default:
                 break;
         }
